@@ -56,7 +56,6 @@ foreach ($joseph as $trait => $status) {
   unset($joseph['name']);
   echo $joseph['name'];
   echo $animals[2];
-
-
-  // associative arrays, push items to arrays and associative arrays. remove arrays. 
+  $joseph['happy'] = true;
 ?>  
+happy: <?php echo $joseph['happy'] ? 'yes' : 'no' ?>

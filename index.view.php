@@ -19,6 +19,7 @@
     <h1>
 
     </h1>
+    <p>happy: <?php echo $joseph['happy'] ? 'yes' : 'no'; ?> </p>
   </header>
 
 </body>
