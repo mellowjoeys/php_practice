@@ -10,9 +10,10 @@ $greetings = [
 
 $animals = ['tigers', 'lions', 'bears', 'whales', 'humans'];
 $animals[] = 'eel';
+echo "<pre>";
 var_dump($animals);
-
-
+echo "</pre>";
+// die()  ;
 foreach ($greetings as $greeting): ?>
   <li><?= $greeting; ?></li>
 <?php endforeach; ?>
@@ -48,6 +49,14 @@ foreach ($joseph as $trait => $status) {
 
 
 <?php 
-  $joseph['married'] = true;
-  echo $joseph['married'];
-?>
+  $joseph['name'] = 'joseph';
+  echo $joseph['name'];
+  $joseph['name'] = 'christine';
+  echo $joseph['name'];
+  unset($joseph['name']);
+  echo $joseph['name'];
+  echo $animals[2];
+
+
+  // associative arrays, push items to arrays and associative arrays. remove arrays. 
+?>  
